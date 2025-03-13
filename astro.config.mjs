@@ -7,7 +7,8 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://scarnage999.github.io/texStore/",
+  site: "https://scarnage999.github.io",
+  base: "texStore",
   output: "static",
   vite: {
     plugins: [tailwindcss()]
