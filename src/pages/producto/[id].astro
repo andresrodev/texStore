@@ -53,7 +53,7 @@ const { Content } = await render(product)
           <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{title}</h1>
           <p class="text-base text-gray-900">{description}</p>
           <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-            <img src={`/images/products/${img}`} alt={description} class="size-full rounded-lg object-cover lg:block max-h-120">
+            <img src={`${import.meta.env.BASE_URL}/images/products/${img}`} alt={description} class="size-full rounded-lg object-cover lg:block max-h-120">
           </div>
         </div>
   

@@ -11,7 +11,7 @@ export default function Toggle() {
 		  <div class="flex lg:flex-1">
 			<a href="/" class="-m-1.5 p-1.5">
 			  <span class="sr-only">Your Company</span>
-			  <img class="absolute top-0 left-0 h-32 w-32" src={`${import.meta.env.BASE_URL}/assets/img/logo.png`} alt="Logo tex Store" />
+			  <img class="absolute top-0 left-0 h-32 w-32" src={`${import.meta.env.BASE_URL}/images/logo.png`} alt="Logo tex Store" />
 			</a>
 		  </div>
 		  <div class="flex lg:hidden">
