@@ -56,7 +56,7 @@ export default function Toggle() {
 				<div class="space-y-2 py-6">
 				  <div class="-mx-3">
 					<a href="#" class="-m-1.5 p-1.5">
-					  Product
+					  Productos
 					</a>
 				  </div>
 				</div>
